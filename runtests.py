@@ -9,7 +9,7 @@ from django.test.runner import DiscoverRunner
 from edc_test_utils import DefaultTestSettings
 
 base_dir = dirname(abspath(__file__))
-app_name = "edc_blood_results"
+app_name = "edc_lab_panel"
 
 DEFAULT_SETTINGS = DefaultTestSettings(
     calling_file=__file__,
