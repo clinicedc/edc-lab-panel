@@ -49,7 +49,7 @@ DEFAULT_SETTINGS = DefaultTestSettings(
         # "edc_timepoint.apps.AppConfig",
         "edc_visit_schedule.apps.AppConfig",
         "edc_visit_tracking.apps.AppConfig",
-        "edc_blood_results.apps.AppConfig",
+        "edc_lab_results.apps.AppConfig",
     ],
     RANDOMIZATION_LIST_PATH=join(base_dir, app_name, "tests", "test_randomization_list.csv"),
     add_dashboard_middleware=True,
